@@ -1,0 +1,25 @@
+{
+  "name": "create-doing",
+  "version": "0.0.1-alpha",
+  "description": "Create a project related to Doing",
+  "keywords": [
+    "create",
+    "cli",
+    "doing"
+  ],
+  "homepage": "https://github.com/BERADQ/create-doing#readme",
+  "bugs": {
+    "url": "https://github.com/BERADQ/create-doing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BERADQ/create-doing.git"
+  },
+  "license": "MIT",
+  "author": "BERADQ",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && node ."
+  }
+}
