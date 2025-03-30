@@ -1,0 +1,10 @@
+{
+  "common": {
+    "$for/info.json": "$this/templates/common/info.json",
+    "$for/main.html": "$this/templates/common/main.html",
+    "$for/perview.webp": "$this/templates/common/perview.webp",
+    "$for/setting/settings.json": "$this/templates/common/setting/settings.json"
+  },
+  "ts": {
+  }
+}

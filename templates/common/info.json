@@ -1,0 +1,9 @@
+{
+  "id": "{<uuid>}",
+  "sceneRenderVersion": 2,
+  "version": 20250310,
+  "name": "{<name>}",
+  "color": "#FF9800",
+  "feature": [{<features>}],
+  "setting": []
+}

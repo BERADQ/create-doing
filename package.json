@@ -7,6 +7,10 @@
     "cli",
     "doing"
   ],
+  "files": [
+    "dist",
+    "templates"
+  ],
   "homepage": "https://github.com/BERADQ/create-doing#readme",
   "bugs": {
     "url": "https://github.com/BERADQ/create-doing/issues"
@@ -20,6 +24,19 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "test": "tsc && node ."
+    "test": "npm run build && node .",
+    "run": "npm exec create-doing",
+    "build": "rolldown -c rolldown.config.ts"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "ramda": "^0.30.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/prompts": "^2.4.9",
+    "@types/ramda": "^0.30.2",
+    "rolldown": "^1.0.0-beta.7",
+    "typescript": "^5.8.2"
   }
 }
