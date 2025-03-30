@@ -86,7 +86,7 @@ interface Options {
 
 async function initCommonProject(options: Options) {
   const structure = JSON.parse(
-    await fs.readFile("./templates/structure.json", "utf-8")
+    await fs.readFile(path.join(thisPath, "./templates/structure.json"), "utf-8")
   );
   const commonStructure = structure.common;
   const from = R.replace("$this", thisPath);
